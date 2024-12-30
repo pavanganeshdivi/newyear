@@ -1,0 +1,128 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    transition: all 2s;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0%;
+    transition: all 2s;
+}
+video{
+    width: 100%;
+    z-index: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    transition: all 2s;
+}
+#con{
+    width: 100%;
+    height: 100vh;  
+    border-radius: 25px;
+    z-index: 2;
+    transition: all 2s;
+}
+h1{
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    letter-spacing: 0.8vh;
+    font-size: 3vw;
+    float: left;
+}
+#date{
+    padding-top: 0;
+    position: absolute;
+    color: black;
+    z-index: 5;
+    left: 48%;
+    top: 0%;
+    font-family: "Dancing Script", serif;
+    font-family: "Pacifico", serif;
+    text-shadow: purple 2px 2px 5px,purple -2px -2px 5px;
+    color: black;
+}
+#day{
+    color: black;
+    position: absolute;
+    font-size: 8vw;
+    left: 40%;
+    bottom: 0%;
+    z-index: 4;
+    font-family: "Roboto Slab", serif;
+    text-shadow: purple 2px 2px 10px,purple -2px -2px 10px;
+}
+h2{
+    color: black;
+    text-align: center;
+    font-size: 4.2vw;
+    text-shadow: 1px 1px 2px black;
+    font-weight: bolder;
+    position: relative;
+    left: 43%;
+    letter-spacing: 0.8vh;
+    font-family: "Pacifico", serif;
+    text-shadow: purple 2px 2px 5px,purple -2px -2px 5px;
+    z-index: 10;
+    float: left;
+}
+#sec{
+    position: relative;
+    left: 45%;
+    transform: scale(1.6);
+    color: black;
+}
+#ampm{
+    position: relative;
+    left: 47%;
+}
+#snow{
+    display: block;
+}
+#crackers{
+    display: none;
+    z-index: 11;
+}
+#newyear,#y2025{
+    font-size: 5vw;
+    font-weight: bold;
+    color: black;
+    z-index: 35;
+    position: relative ;
+    top: 20%;
+    left: 56%;
+    /* display: none; */
+    font-family: "Pacifico", serif;
+    text-shadow: purple 2px 2px 2px;
+}
+#time{
+    width: 100%;
+    height: 100px;
+    /* background-color: white; */
+    position: absolute;
+    top: 43%;
+    z-index: 20;
+}
+#daydate{
+    width: 100%;
+    height: 220px;
+    z-index: 25;
+    position: absolute;
+    top: 13%;
+}
+#y2025{
+    position: relative;
+    top: -10%;
+    font-size: 20vw;
+    z-index: 25;
+}
+#newyear{
+    z-index: 28;
+    left: 61%;
+    top: 18%;
+}
